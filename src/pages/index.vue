@@ -44,7 +44,7 @@ const menuItems = computed(() => ([
 </script>
 
 <template>
-  <Container padding-t="0" padding-x="0">
+  <Container paddingT="0" paddingX="0">
     <div class="h-46" />
     <VanCellGroup inset>
       <VanCell center :title="t('home.darkMode')">

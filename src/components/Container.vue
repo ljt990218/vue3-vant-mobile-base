@@ -1,12 +1,12 @@
 <script setup lang="ts">
 defineProps({
   paddingT: {
-    type: Number,
-    default: 46,
+    type: String,
+    default: '46',
   },
   paddingX: {
-    type: Number,
-    default: 16,
+    type: String,
+    default: '16',
   },
 })
 </script>
