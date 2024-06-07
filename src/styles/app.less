@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--van-gray-1);
+  color-scheme: light;
+}
+
+html.dark {
+  background: #222;
+  color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

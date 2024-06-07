@@ -1,0 +1,21 @@
+{
+  "home": {
+    "darkMode": "🌗 暗黑模式",
+    "mockGuide": "💿 Mock 指南",
+    "language": "📚 语言",
+    "404Demo": "🙅 404页 演示"
+  },
+  "mock": {
+    "fromAsyncData": "来自异步请求的数据",
+    "pull": "请求",
+    "reset": "清空",
+    "noData": "暂无数据"
+  },
+  "layouts": {
+    "home": "首页",
+    "profile": "我的"
+  },
+  "profile": {
+    "placeholder": "未完成"
+  }
+}
