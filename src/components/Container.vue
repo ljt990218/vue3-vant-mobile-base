@@ -2,7 +2,7 @@
 defineProps({
   paddingT: {
     type: String,
-    default: '46',
+    default: '0',
   },
   paddingX: {
     type: String,
@@ -13,6 +13,7 @@ defineProps({
 
 <template>
   <main :style="`padding-top: ${paddingT}px; padding-left: ${paddingX}px; padding-right: ${paddingX}px`">
+    <NavBar />
     <slot />
   </main>
 </template>
